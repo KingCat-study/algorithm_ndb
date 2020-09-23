@@ -1,8 +1,7 @@
 package basic_sort;
 
-
 //시간 복잡도 O(N^2) 이지만 
-//선택 정렬, 버블 정렬보다 대부분의 상황에서 성능이 좋다.
+//수열 일부가 정렬 되어 있다면 선택 정렬, 버블 정렬보다 빠르다.
 public class insertSort {
 	public static void main(String[] args) {
 		int [] array = {1,10,5,8,7,6,4,3,2,9};
