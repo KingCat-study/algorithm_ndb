@@ -1,9 +1,9 @@
 package basic_sort;
 
-//µîÂ÷ ¼ö¿­ 10 * (10 + 1) / 2 
+//ì‹œê°„ ë³µì¡ë„ 10 * (10 + 1) / 2 
 // N * (N + 1) / 2
 // O(N * N)
-// ¼±ÅÃ Á¤·ÄÀÇ ¼öÇà½Ã°£Àº ºò¿À(N*N) È¤Àº O(N^2) ÀÌ´Ù.
+//O(N*N) ë˜ëŠ” O(N^2)
 public class selectedSort {
 
 	public static void main(String[] args) {
