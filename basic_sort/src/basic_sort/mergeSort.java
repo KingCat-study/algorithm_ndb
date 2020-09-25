@@ -5,12 +5,12 @@ package basic_sort;
 public class mergeSort {
 
 	static int size = 10;
-	int [] sorted = new int[size];
 	
 	private void merge(int [] data ,int start,int middle, int end) {
 		int i = start;
 		int j = middle + 1;
 		int k = i;
+		int [] sorted = new int[end+1];
 		
 		while(i <= middle && j <= end) {
 			if(data[i] < data[j]) {
