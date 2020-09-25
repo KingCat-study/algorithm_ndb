@@ -1,5 +1,6 @@
 package basic_sort;
 
+//시간 복잡도는 O(logN) 이나 최악의 경우(수열이 거의 정렬되어 있는 경우) 에는 O(N*N)
 public class quickSort {
 
 	private void qSort(int [] data, int start,int end) {
