@@ -30,7 +30,7 @@ public class Beakjoon_2178 {
 			st = new StringTokenizer(br.readLine());
 			String line = st.nextToken();
 			for (int j = 0; j < col; j++) {
-				map[i][j] = map[i][j] = line.charAt(j) - '0';
+				map[i][j] = line.charAt(j) - '0';
 			}
 		}
 		bfs();
