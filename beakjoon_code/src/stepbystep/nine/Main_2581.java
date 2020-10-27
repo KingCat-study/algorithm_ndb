@@ -11,7 +11,7 @@ public class Main_2581 {
 		int n = kb.nextInt();
 		int cnt = 0;
 		int sum = 0;
-		int min = 10000;
+		int min = 10001;
 		kb.close();
 		
 		for(int i = m; i <= n; i++) {
