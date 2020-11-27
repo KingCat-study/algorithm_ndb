@@ -36,30 +36,3 @@ public class Main_11651 {
 		}
 	}
 }
-
-class Point implements Comparable<Point> {
-	int x;
-	int y;
-	
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-
-	@Override
-	public int compareTo(Point o) {
-		if(this.y == o.y) {
-			if(this.x < o.x) {
-				return -1;
-			} else if(this.x == o.x) {
-				return 0;
-			} else {
-				return 1;
-			}
-		} else if(this.y < o.y){
-			return -1;
- 		} else {
- 			return 1;
- 		}
-	}
-}
