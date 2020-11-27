@@ -1,4 +1,4 @@
-package data_structure;
+package array_string;
 
 import java.util.ArrayList;
 
